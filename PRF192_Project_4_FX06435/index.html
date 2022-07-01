@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Slideshow</h1>
+      <img
+        class="slide"
+        src="image/anh1.jpeg"
+        idx="0"
+        alt=""
+      />
+      <img
+        class="slide"
+        src="image/anh2.jpeg"
+        idx="1"
+        alt=""
+      />
+      <img
+        class="slide"
+        src="image/anh3.jpeg"
+        idx="2"
+        alt=""
+      />
+      <img
+        class="slide"
+        src="image/anh4.jpeg"
+        idx="3"
+        alt=""
+      />
+
+      <img
+        class="btn-change"
+        id="next"
+        src="image/next.png"
+        alt=""
+      />
+      <img
+        class="btn-change"
+        id="prev"
+        src="image/prev.png"
+      />
+
+      <div class="change-img">
+        <button class="active" idx="0">1</button>
+        <button idx="1">2</button>
+        <button idx="2">3</button>
+        <button idx="3">4</button>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
